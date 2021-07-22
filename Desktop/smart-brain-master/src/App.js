@@ -76,7 +76,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://boiling-reef-50371.herokuapp.com/imageurl', {
+      fetch('https://git.heroku.com/boiling-reef-50371.git/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -86,7 +86,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://boiling-reef-50371.herokuapp.com/image', {
+          fetch('https://git.heroku.com/boiling-reef-50371.git/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
