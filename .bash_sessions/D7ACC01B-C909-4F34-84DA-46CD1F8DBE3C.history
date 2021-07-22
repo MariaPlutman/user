@@ -1,0 +1,11 @@
+tracerout google.com
+chsh -s /bin/zsh
+chsh -s /bin/zsh
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python /Users/user/Desktop/Python/cake.py
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python "/Users/user/Desktop/Python/Daily challenge day 3.py"
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python "/Users/user/Desktop/Exercises XP Gold #2 day 3.gyp"
+/System/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python "/Users/user/Desktop/Python/Daily challenge day 3.py"
+pip
+pip --version
+sudo easy_install pip
+pip --version

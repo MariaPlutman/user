@@ -1,0 +1,18 @@
+chsh -s /bin/zsh
+ls
+cd Desktop
+cd DevelopersInstitute/
+cd Week_1
+cd Da
+ls
+cd Daily\ Challenges/
+ls
+cd day_3
+ls
+cd ..
+cd ..
+cd ..
+git status
+git add .
+git commit -m "added files to day_3 and daily challenge"
+git push origin master

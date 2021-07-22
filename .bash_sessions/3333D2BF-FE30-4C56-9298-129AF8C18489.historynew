@@ -1,0 +1,148 @@
+cd Desktop
+DevelopersInstitute
+DevelopersInstitute
+clear
+cd DevelopersInstitute
+git pull origin master
+git add .
+git commit -m "Added exersices to day2"
+git push origin master
+git clone Daily challenge day_2
+git clone https://github.com/MariaPlutman/DevelopersInstitute.git
+git pull origin master
+git branch folder1
+git branch folder2
+git status
+git add .
+git rm --cached DevelopersInstitute
+git commit -m "new branches"
+git push origin master
+git branch folder1
+git status
+git branch folder1
+git branch 
+git checkout folder1
+clear
+git pull origin master
+clear
+cd Week_1
+cd Daily Challeges
+cd Daily Challeges
+cd ..
+git status
+git add .
+git commit -m "new"
+git push origin master
+gil li
+git li
+git ls
+ls
+ls -a
+clear
+git show-branch
+git branch -d folder1
+git branch -d folder1
+git clone folder1
+git clone
+cd ..
+git pull
+git pull folder1
+clear
+git clone https://github.com/MariaPlutman/DevelopersInstitute.git
+git clone https://github.com/MariaPlutman/DevelopersInstitute.git https://github.com/MariaPlutman/folder1.git
+git clone https://github.com/MariaPlutman/DevelopersInstitute.git https://github.com/MariaPlutman/folder2.git
+cd DevelopersInstitute
+git clone https://github.com/MariaPlutman/DevelopersInstitute.git https://github.com/MariaPlutman/folder1.git
+git clone https://github.com/MariaPlutman/DevelopersInstitute.git https://github.com/MariaPlutman/folder2.git
+git status
+git add .
+git commit -m "clone"
+git push origin master
+git branch folder1
+cd folder1
+cd /Users/user/Desktop/DevelopersInstitute/https:/github.com/MariaPlutman
+ls
+cd folder1
+cd folder1.git/
+ls
+ls
+cd Week_1/
+ls
+cd Day_2/
+ls
+cd ..
+cd Daily\ Challeges/
+ls
+cd Daily\ challenge\ day_2
+ls
+git branch folder1
+git branch folder2
+cd ..
+cd ..
+cd ..
+cd ..
+cd folder2.git/
+ls
+cd Week_1/
+ls
+cd Daily\ Challeges/
+ls
+cd Daily\ challenge\ day_2
+ls
+git branch folder1
+git branch folder2
+git branch folder1
+ls
+git checkout folder1
+ls
+open planets.md 
+git checkout folder2
+open planets.md 
+ls
+open planets.md 
+open planets.md 
+git branch -d folder2
+git commit
+git branch -d folder2
+pwd
+ls
+git ls
+git branch -a
+git checkout folder1
+git branch -a
+git branch -d folder2
+git branch -a
+pwd
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+cd folder1.git/
+cd Week_1/
+cd Daily\ Challeges/
+cd Daily\ challenge\ day_2
+ls
+open planets.md 
+git branch -a
+git chackout folder2
+git checkout folder2
+git branch -a
+ls
+open planets.md 
+pwd
+git branch -d folder1
+git branch -a
+git checkout folder1
+git status
+git add .
+git commit
+git commit -m "new"
+git push origin master
+cd ..
+cd ..
+cd ..
+cd ..
+git add .
+git commit -m "new"
+git push origin master

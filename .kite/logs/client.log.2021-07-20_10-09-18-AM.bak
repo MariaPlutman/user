@@ -1,0 +1,40 @@
+[kited] 2021/07/19 22:18:31.962250 app.go:197: listening at port: 46624
+[kited] 2021/07/19 22:18:31.962368 app.go:198: machine ID: 66084eaf65a0db0b43a418a875b5dd3a
+[kited] 2021/07/19 22:18:31.962390 app.go:199: install ID: 970ba3ec-d5ab-4427-9a20-b9d62906c488
+[kited] 2021/07/19 22:18:31.962404 app.go:200: OS: darwin
+[kited] 2021/07/19 22:18:31.962490 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, family 6, model 142, 2 cores, 4 threads, flags: ADX,AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,MPX,NX,POPCNT,RDRAND,RDSEED,RDTSCP,SGX,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2021/07/19 22:18:31.962505 app.go:202: platform: darwin Standalone Workstation 11.4
+[kited] 2021/07/19 22:18:31.962513 app.go:203: root dir: /Users/user/.kite
+[kited] 2021/07/19 22:18:31.962520 app.go:204: log file: /Users/user/.kite/logs/client.log
+[kited] 2021/07/19 22:18:31.962527 app.go:205: dev mode: false
+[kited] 2021/07/19 22:18:31.962535 app.go:206: version: 0.20210610.0
+[kited] 2021/07/19 22:18:31.962542 app.go:207: configuration: Release
+[kited] 2021/07/19 22:18:31.962941 app.go:214: proxy: environment
+[kited] 2021/07/19 22:18:31.966000 plugins.go:158: error loading 'encountered_editors' value: no value for key "encountered_editors" found
+[kited] 2021/07/19 22:18:32.004674 client.go:172: Successfully loaded 0 licenses
+[kited] 2021/07/19 22:18:32.128704 manager.go:173: using tf_threads value of 1
+[kited] 2021/07/19 22:18:34.101988 manager.go:263: watching dir /Users/user
+[kited] 2021/07/19 22:18:34.132844 app.go:341: using startup mode: SystemBoot
+[kited] 2021/07/19 22:18:34.132903 app.go:342: using startup channel: 
+[kited] 2021/07/19 22:18:34.133030 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2021/07/19 22:18:34.133086 state.go:75: track: setting user ids User{id:0 email: installID:970ba3ec-d5ab-4427-9a20-b9d62906c488 machineID:66084eaf65a0db0b43a418a875b5dd3a}
+[kited] 2021/07/19 22:18:34.393531 manager.go:385: walking root dir /Users/user
+[kited] 2021/07/19 22:18:35.727385 http.go:146: received login event
+[kited] 2021/07/19 22:18:35.727459 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/19 22:18:35.778736 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/19 22:18:37.651324 listener.go:58: connection dropped: failed to get reader: WebSocket closed: read timed out: context canceled
+[kited] 2021/07/19 22:18:38.858227 manager.go:378: identifying with id: 246953
+[kited] 2021/07/19 22:18:48.389712 track.go:167: tracker.Event: Found Editors
+[kited] 2021/07/19 22:18:48.389819 track.go:167: tracker.Event: Found Installed Plugins
+[kited] 2021/07/19 22:18:48.440478 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/19 22:18:48.440581 plugins_helpers.go:104: attempting to update pycharm, vim, vscode
+[kited] 2021/07/19 22:18:52.096243 track.go:167: tracker.Event: Successful Plugin Updates
+[kited] 2021/07/19 22:18:57.883059 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/19 22:20:27.650105 track.go:167: tracker.Event: Background Library Walk Completed
+[kited] 2021/07/19 22:20:27.650479 manager.go:401: Library dirs: 5
+[kited] 2021/07/19 22:20:27.650514 manager.go:402: Walk took: 1m53.255121624s
+[kited] 2021/07/19 22:20:27.650534 manager.go:406: finished walking root dir /Users/user
+[kited] 2021/07/19 22:28:36.386939 handlers.go:68: GET /clientapi/plugins 200 4877 4.397598491s
+[kited] 2021/07/19 22:33:34.047035 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2021/07/19 22:33:34.047133 api.go:96: Unloading data for python
+[kited] 2021/07/19 22:38:38.188553 handlers.go:68: GET /clientapi/plugins 200 4877 6.277629298s

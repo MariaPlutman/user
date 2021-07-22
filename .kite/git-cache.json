@@ -1,0 +1,46 @@
+{
+"Repos": {
+"/Users/user/Desktop/smart-brain-api-master": {
+"Commits": {
+"4a45fe618444f0fffd91039e23f86991c6c7cfd9": null,
+"75c6161a72258b718d27f277acf660af05044ea5": null,
+"dd859e35c8a098dbc30fc905f46cd5a4ddd9d1a2": [
+0
+]
+},
+"Files": [
+"server.js"
+]
+},
+"/Users/user/Documents/GitHub/Quote-Generator": {
+"Commits": {
+"afd762b98b2fc1d9c23b43e2b6bdc2af26eccc76": null,
+"e5525564071beb354d6e5f23fbbd981e90c44e52": [
+0
+]
+},
+"Files": [
+"index.html"
+]
+},
+"/Users/user/Documents/GitHub/Template": {
+"Commits": {
+"afd762b98b2fc1d9c23b43e2b6bdc2af26eccc76": null
+},
+"Files": null
+},
+"/Users/user/Downloads/smart-brain-api-master": {
+"Commits": {
+"4a45fe618444f0fffd91039e23f86991c6c7cfd9": null,
+"75c6161a72258b718d27f277acf660af05044ea5": null
+},
+"Files": null
+}
+},
+"EvictionOrder": [
+"/Users/user/Documents/GitHub/Template",
+"/Users/user/Documents/GitHub/Quote-Generator",
+"/Users/user/Downloads/smart-brain-api-master",
+"/Users/user/Desktop/smart-brain-api-master"
+]
+}

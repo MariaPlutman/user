@@ -1,0 +1,145 @@
+[kited] 2021/07/18 08:49:58.684555 app.go:197: listening at port: 46624
+[kited] 2021/07/18 08:49:58.684674 app.go:198: machine ID: 66084eaf65a0db0b43a418a875b5dd3a
+[kited] 2021/07/18 08:49:58.684694 app.go:199: install ID: 970ba3ec-d5ab-4427-9a20-b9d62906c488
+[kited] 2021/07/18 08:49:58.684709 app.go:200: OS: darwin
+[kited] 2021/07/18 08:49:58.684820 app.go:201: CPU: vendor Intel, brand Intel(R) Core(TM) i7-7567U CPU @ 3.50GHz, family 6, model 142, 2 cores, 4 threads, flags: ADX,AESNI,AVX,AVX2,BMI1,BMI2,CLMUL,CMOV,CX16,ERMS,F16C,FMA3,HTT,IBPB,LZCNT,MMX,MMXEXT,MPX,NX,POPCNT,RDRAND,RDSEED,RDTSCP,SGX,SSE,SSE2,SSE3,SSE4.1,SSE4.2,SSSE3,STIBP,VMX
+[kited] 2021/07/18 08:49:58.684843 app.go:202: platform: darwin Standalone Workstation 11.4
+[kited] 2021/07/18 08:49:58.684856 app.go:203: root dir: /Users/user/.kite
+[kited] 2021/07/18 08:49:58.684869 app.go:204: log file: /Users/user/.kite/logs/client.log
+[kited] 2021/07/18 08:49:58.684881 app.go:205: dev mode: false
+[kited] 2021/07/18 08:49:58.684892 app.go:206: version: 0.20210610.0
+[kited] 2021/07/18 08:49:58.684904 app.go:207: configuration: Release
+[kited] 2021/07/18 08:49:58.685431 app.go:214: proxy: environment
+[kited] 2021/07/18 08:49:58.800568 manager.go:173: using tf_threads value of 1
+[kited] 2021/07/18 08:49:59.685027 manager.go:263: watching dir /Users/user
+[kited] 2021/07/18 08:49:59.709826 client.go:172: Successfully loaded 0 licenses
+[kited] 2021/07/18 08:49:59.710423 plugins.go:158: error loading 'encountered_editors' value: no value for key "encountered_editors" found
+[kited] 2021/07/18 08:49:59.711845 app.go:341: using startup mode: SystemBoot
+[kited] 2021/07/18 08:49:59.711877 app.go:342: using startup channel: 
+[kited] 2021/07/18 08:49:59.711998 http.go:35: starting processHTTP(https://alpha.kite.com/)
+[kited] 2021/07/18 08:49:59.712046 state.go:75: track: setting user ids User{id:0 email: installID:970ba3ec-d5ab-4427-9a20-b9d62906c488 machineID:66084eaf65a0db0b43a418a875b5dd3a}
+[kited] 2021/07/18 08:49:59.761212 manager.go:385: walking root dir /Users/user
+[kited] 2021/07/18 08:50:07.027633 track.go:167: tracker.Event: Found Editors
+[kited] 2021/07/18 08:50:07.027764 track.go:167: tracker.Event: Found Installed Plugins
+[kited] 2021/07/18 08:50:07.091894 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 08:50:07.091954 plugins_helpers.go:104: attempting to update pycharm, vim, vscode
+[kited] 2021/07/18 08:50:09.731951 http.go:146: received login event
+[kited] 2021/07/18 08:50:09.732128 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 08:50:09.732405 listener.go:58: connection dropped: failed to get reader: WebSocket closed: read timed out: context canceled
+[kited] 2021/07/18 08:50:09.767772 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 08:50:14.747960 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/246953": dial tcp 34.107.247.156:443: i/o timeout 200ms
+[kited] 2021/07/18 08:50:14.758423 manager.go:378: identifying with id: 246953
+[kited] 2021/07/18 08:50:19.759128 client.go:284: scheduled license refresh error: error fetching /api/account/licenses?install-id=970ba3ec-d5ab-4427-9a20-b9d62906c488: Get "https://alpha.kite.com/api/account/licenses?install-id=970ba3ec-d5ab-4427-9a20-b9d62906c488": dial tcp 34.249.70.2:443: i/o timeout
+[kited] 2021/07/18 08:50:19.951104 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/246953": dial tcp 34.107.247.156:443: i/o timeout 400ms
+[kited] 2021/07/18 08:50:25.352428 listener.go:145: connection error: failed to WebSocket dial: failed to send handshake request: Get "https://rc.kite.com/receive/246953": dial tcp 34.107.247.156:443: i/o timeout 800ms
+[kited] 2021/07/18 08:50:26.330275 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp: lookup t.kite.com: no such host
+[kited] 2021/07/18 08:50:26.330956 manager.go:456: error identifying user User{id:246953 email:m.marilynnervosa@gmail.com installID:970ba3ec-d5ab-4427-9a20-b9d62906c488 machineID:66084eaf65a0db0b43a418a875b5dd3a} in mixpanel
+[kited] 2021/07/18 08:50:26.332631 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp: lookup t.kite.com: no such host
+[kited] 2021/07/18 08:50:26.339104 plugins_helpers.go:82: install error: map[string]string{"editor":"Visual Studio Code", "error":"error running /Applications/Visual Studio Code 2.app/Contents/Resources/app/bin/code \"--install-extension kiteco.kite --force\": exit status 1", "path":"/Applications/Visual Studio Code 2.app", "stderr":"getaddrinfo ENOTFOUND marketplace.visualstudio.com\n", "stdout":"Installing extensions...\n"}
+[kited] 2021/07/18 08:50:26.350227 track.go:150: error updating mixpanel user properties mixpanel: Get "https://api.mixpanel.com/engage?data=eyIkZGlzdGluY3RfaWQiOiIyNDY5NTMiLCIkc2V0Ijp7ImNsaWVudF92ZXJzaW9uIjoiMC4yMDIxMDYxMC4wIiwiY291bnRyeV9pc28iOiIiLCJjcHUiOnsidmVuZG9yIjoiSW50ZWwiLCJicmFuZCI6IkludGVsKFIpIENvcmUoVE0pIGk3LTc1NjdVIENQVSBAIDMuNTBHSHoiLCJmYW1pbHkiOjYsIm1vZGVsIjoxNDIsImNvcmVzIjoyLCJ0aHJlYWRzIjo0LCJmbGFncyI6WyJBRFgiLCJBRVNOSSIsIkFWWCIsIkFWWDIiLCJCTUkxIiwiQk1JMiIsIkNMTVVMIiwiQ01PViIsIkNYMTYiLCJFUk1TIiwiRjE2QyIsIkZNQTMiLCJIVFQiLCJJQlBCIiwiTFpDTlQiLCJNTVgiLCJNTVhFWFQiLCJNUFgiLCJOWCIsIlBPUENOVCIsIlJEUkFORCIsIlJEU0VFRCIsIlJEVFNDUCIsIlNHWCIsIlNTRSIsIlNTRTIiLCJTU0UzIiwiU1NFNC4xIiwiU1NFNC4yIiwiU1NTRTMiLCJTVElCUCIsIlZNWCJdfSwiY3B1X2NvcmVzIjoyLCJjcHVfZmVhdHVyZXMiOlsiQURYIiwiQUVTTkkiLCJBVlgiLCJBVlgyIiwiQk1JMSIsIkJNSTIiLCJDTE1VTCIsIkNNT1YiLCJDWDE2IiwiRVJNUyIsIkYxNkMiLCJGTUEzIiwiSFRUIiwiSUJQQiIsIkxaQ05UIiwiTU1YIiwiTU1YRVhUIiwiTVBYIiwiTlgiLCJQT1BDTlQiLCJSRFJBTkQiLCJSRFNFRUQiLCJSRFRTQ1AiLCJTR1giLCJTU0UiLCJTU0UyIiwiU1NFMyIsIlNTRTQuMSIsIlNTRTQuMiIsIlNTU0UzIiwiU1RJQlAiLCJWTVgiXSwiY3B1X3RocmVhZHMiOjQsImNwdV92ZW5kb3IiOiJJbnRlbCIsImVtYWlsIjoibS5tYXJpbHlubmVydm9zYUBnbWFpbC5jb20iLCJpbnN0YWxsX2lkIjoiOTcwYmEzZWMtZDVhYi00NDI3LTlhMjAtYjlkNjI5MDZjNDg4Iiwia2l0ZV9sb2NhbCI6dHJ1ZSwibGFzdF9sb2dpbiI6MTYyNjU4NzQyNiwibWFjaGluZSI6ImtpdGVfbG9jYWwiLCJtZXRyaWNzX2Rpc2FibGVkIjpmYWxzZSwib25ib2FyZGluZ19lbWFpbF9yZXF1aXJlZCI6IiIsIm9zIjoiZGFyd2luIiwic2VydmVyX3VzZXJfaGFzaCI6IiIsInVzZXJfaWQiOjI0Njk1Mywid2luZG93c19kb21haW5fbWVtYmVyc2hpcCI6ZmFsc2V9LCIkdG9rZW4iOiJmYjZiOWIzMzYxMjJhOGIyOWM2MGY0YzI4ZGFiNmQwMyJ9&ip=1": dial tcp: lookup api.mixpanel.com: no such host
+[kited] 2021/07/18 08:50:26.351062 track.go:157: error updating customer.io user properties Put "https://track.customer.io/api/v1/customers/246953": dial tcp: lookup track.customer.io: no such host
+[kited] 2021/07/18 08:50:27.232140 rollbar.go:188: ROLLBAR error error downloading kite plugin zip: Get "https://plugins.jetbrains.com/pluginManager/?action=download&build=PY-201.7223.92&id=com.kite.intellij&uuid=66084eaf65a0db0b43a418a875b5dd3a": dial tcp: lookup plugins.jetbrains.com: no such host []
+[kited] 2021/07/18 08:50:27.232292 rollbar.go:188: dropping rollbar event due to filtering
+[kited] 2021/07/18 08:50:27.232508 plugins_helpers.go:82: install error: map[string]string{"editor":"PyCharm", "error":"error downloading kite plugin zip: Get \"https://plugins.jetbrains.com/pluginManager/?action=download&build=PY-201.7223.92&id=com.kite.intellij&uuid=66084eaf65a0db0b43a418a875b5dd3a\": dial tcp: lookup plugins.jetbrains.com: no such host", "path":"/Applications/PyCharm.app"}
+[kited] 2021/07/18 08:50:27.236613 rollbar.go:188: ROLLBAR error error downloading kite plugin zip: Get "https://plugins.jetbrains.com/pluginManager/?action=download&build=PY-201.7223.92&id=com.kite.intellij&uuid=66084eaf65a0db0b43a418a875b5dd3a": dial tcp: lookup plugins.jetbrains.com: no such host []
+[kited] 2021/07/18 08:50:27.237365 plugins_helpers.go:82: install error: map[string]string{"editor":"PyCharm", "error":"error downloading kite plugin zip: Get \"https://plugins.jetbrains.com/pluginManager/?action=download&build=PY-201.7223.92&id=com.kite.intellij&uuid=66084eaf65a0db0b43a418a875b5dd3a\": dial tcp: lookup plugins.jetbrains.com: no such host", "path":"/Users/user/Desktop/PyCharm.app"}
+[kited] 2021/07/18 08:50:27.237404 track.go:167: tracker.Event: Failed Plugin Updates
+[kited] 2021/07/18 08:50:27.237428 track.go:167: tracker.Event: Successful Plugin Updates
+[kited] 2021/07/18 08:50:27.266691 transport.go:65: Rollbar error: POST failed: Post "https://api.rollbar.com/api/1/item/": dial tcp: lookup api.rollbar.com: no such host
+[kited] 2021/07/18 08:50:27.267069 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp: lookup t.kite.com: no such host
+[kited] 2021/07/18 08:50:27.267887 http.go:58: error sending event request: Post "https://t.kite.com/client_events": dial tcp: lookup t.kite.com: no such host
+[kited] 2021/07/18 08:50:35.934981 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 08:51:43.851245 track.go:167: tracker.Event: Background Library Walk Completed
+[kited] 2021/07/18 08:51:43.851320 manager.go:401: Library dirs: 5
+[kited] 2021/07/18 08:51:43.851341 manager.go:402: Walk took: 1m44.090062952s
+[kited] 2021/07/18 08:51:43.851353 manager.go:406: finished walking root dir /Users/user
+[kited] 2021/07/18 09:00:04.650951 handlers.go:68: GET /clientapi/plugins 200 4877 5.883911596s
+[kited] 2021/07/18 09:04:59.685743 api.go:96: Unloading data for python
+[kited] 2021/07/18 09:04:59.685953 manager.go:278: releasing resources due to user idle after 15 minutes
+[kited] 2021/07/18 09:10:03.251384 handlers.go:68: GET /clientapi/plugins 200 4877 4.550465102s
+[kited] 2021/07/18 09:19:59.705701 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 09:19:59.705744 plugins_helpers.go:104: attempting to update pycharm, vscode
+[kited] 2021/07/18 09:20:02.968291 track.go:167: tracker.Event: Successful Plugin Updates
+[kited] 2021/07/18 09:20:03.208554 handlers.go:68: GET /clientapi/plugins 200 4877 4.496645136s
+[kited] 2021/07/18 09:20:07.506248 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 09:30:03.320283 handlers.go:68: GET /clientapi/plugins 200 4877 4.547042896s
+[kited] 2021/07/18 09:40:03.620013 handlers.go:68: GET /clientapi/plugins 200 4877 4.703192898s
+[kited] 2021/07/18 09:50:00.002138 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 09:50:05.925957 handlers.go:68: GET /clientapi/plugins 200 4877 7.010231164s
+[kited] 2021/07/18 09:50:06.562943 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 09:50:12.182988 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 09:50:12.219919 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 09:50:29.488891 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 10:00:04.685572 handlers.go:68: GET /clientapi/plugins 200 4877 5.850453163s
+[kited] 2021/07/18 10:10:03.331393 handlers.go:68: GET /clientapi/plugins 200 4877 4.503734268s
+[kited] 2021/07/18 10:16:44.201301 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.39:50237->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 10:30:43.476465 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.39:50382->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 10:36:09.837187 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.39:50457->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 10:42:05.584265 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.39:50494->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 11:26:05.897598 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 11:26:10.197339 handlers.go:68: GET /clientapi/plugins 200 4877 5.294957002s
+[kited] 2021/07/18 11:26:10.629969 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 11:27:03.285800 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.39:50527->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/18 11:36:09.854466 handlers.go:68: GET /clientapi/plugins 200 4877 4.968652514s
+[kited] 2021/07/18 11:46:09.611880 handlers.go:68: GET /clientapi/plugins 200 4877 4.656662726s
+[kited] 2021/07/18 11:56:06.013453 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 11:56:10.068257 handlers.go:68: GET /clientapi/plugins 200 4877 5.07180363s
+[kited] 2021/07/18 11:56:11.148415 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 11:56:33.256753 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 11:56:33.290283 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 12:06:10.898817 handlers.go:68: GET /clientapi/plugins 200 4877 5.869554334s
+[kited] 2021/07/18 12:16:10.196693 handlers.go:68: GET /clientapi/plugins 200 4877 5.140321396s
+[kited] 2021/07/18 12:26:06.251947 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 12:26:11.770236 handlers.go:68: GET /clientapi/plugins 200 4877 6.655772629s
+[kited] 2021/07/18 12:26:12.806443 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 12:26:14.354662 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.55:50728->34.107.247.156:443: read: operation timed out
+[kited] 2021/07/18 12:36:09.968136 handlers.go:68: GET /clientapi/plugins 200 4877 4.85554298s
+[kited] 2021/07/18 12:46:09.716441 handlers.go:68: GET /clientapi/plugins 200 4877 4.553193074s
+[kited] 2021/07/18 12:56:06.293674 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 12:56:11.597630 handlers.go:68: GET /clientapi/plugins 200 4877 6.389279284s
+[kited] 2021/07/18 12:56:12.537265 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 12:56:48.468654 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 12:56:48.507101 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 13:11:33.672122 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.78:51328->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 13:27:12.252758 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.78:51540->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 13:35:25.685323 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.78:51590->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 13:47:54.730379 handlers.go:68: GET /clientapi/plugins 200 4877 2.922793514s
+[kited] 2021/07/18 13:47:54.753517 http.go:58: error sending event request: Post "https://t.kite.com/kite_status": dial tcp: lookup t.kite.com: no such host
+[kited] 2021/07/18 14:01:00.448681 listener.go:58: connection dropped: failed to get reader: failed to read frame header: read tcp 192.168.1.78:51626->34.107.247.156:443: read: connection reset by peer
+[kited] 2021/07/18 14:07:26.862889 handlers.go:68: GET /clientapi/plugins 200 4877 5.270776571s
+[kited] 2021/07/18 14:17:22.679238 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 14:17:27.819062 handlers.go:68: GET /clientapi/plugins 200 4877 6.150359344s
+[kited] 2021/07/18 14:17:28.843022 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 14:27:26.377411 handlers.go:68: GET /clientapi/plugins 200 4877 4.708838971s
+[kited] 2021/07/18 14:37:26.451772 handlers.go:68: GET /clientapi/plugins 200 4877 4.870878815s
+[kited] 2021/07/18 14:47:22.698469 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 14:47:26.976451 handlers.go:68: GET /clientapi/plugins 200 4877 5.318247224s
+[kited] 2021/07/18 14:47:27.943127 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 14:48:19.930481 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 14:48:19.969491 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 14:57:26.622984 handlers.go:68: GET /clientapi/plugins 200 4877 4.926856717s
+[kited] 2021/07/18 15:01:00.905890 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 15:07:26.371711 handlers.go:68: GET /clientapi/plugins 200 4877 4.697862013s
+[kited] 2021/07/18 15:17:22.696559 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 15:17:27.476437 handlers.go:68: GET /clientapi/plugins 200 4877 5.775539966s
+[kited] 2021/07/18 15:17:28.296403 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 15:27:26.741738 handlers.go:68: GET /clientapi/plugins 200 4877 5.054662771s
+[kited] 2021/07/18 15:37:27.051140 handlers.go:68: GET /clientapi/plugins 200 4877 5.280660753s
+[kited] 2021/07/18 15:47:22.786270 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 15:47:26.819576 handlers.go:68: GET /clientapi/plugins 200 4877 5.041845036s
+[kited] 2021/07/18 15:47:27.680066 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 15:48:35.048363 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 15:48:35.086258 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
+[kited] 2021/07/18 15:57:27.336459 handlers.go:68: GET /clientapi/plugins 200 4877 5.505847881s
+[kited] 2021/07/18 16:01:01.540043 listener.go:58: connection dropped: failed to get reader: received close frame: status = StatusNormalClosure and reason = "408 408 Request Timeout"
+[kited] 2021/07/18 16:07:26.547252 handlers.go:68: GET /clientapi/plugins 200 4877 4.704653273s
+[kited] 2021/07/18 16:17:22.907671 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 16:17:27.742651 handlers.go:68: GET /clientapi/plugins 200 4877 5.830805401s
+[kited] 2021/07/18 16:17:28.536112 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 16:27:26.791490 handlers.go:68: GET /clientapi/plugins 200 4877 4.883025039s
+[kited] 2021/07/18 16:37:26.407881 handlers.go:68: GET /clientapi/plugins 200 4877 4.568091065s
+[kited] 2021/07/18 16:47:22.799218 editorslist.go:19: Detected 0 running editors with 0 new entries, purged 0 entries
+[kited] 2021/07/18 16:47:26.907648 handlers.go:68: GET /clientapi/plugins 200 4877 5.130856257s
+[kited] 2021/07/18 16:47:27.702475 autoinstall.go:84: no plugins installed automatically
+[kited] 2021/07/18 16:48:50.041690 plugins.go:171: activated GoTick in plugin manager
+[kited] 2021/07/18 16:48:50.076782 plugins.go:177: updating Kite_status flag for spyder settings: suboptimal = false
